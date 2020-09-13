@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Flavors&family=Griffy&display=swap');
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Ewert&family=Flavors&family=Griffy&display=swap');
+            </style>
+            <style>
+                *{
+    margin: 0;
+    padding: 0;
+}
+.full{
+    /*background-color: rgb(140, 207, 181);*/
+    background-image: url(Form-Background.jpg);
+    overflow: hidden;
+    background-size: cover; 
+   }
+.name{
+    /*background-color: rgb(25, 236, 35);*/
+    background-image: url(new.jpg);
+    height: 900px;
+    width: 300px;
+    margin: 18px;
+    border-radius: 20px;
+    float: left;
+    background-size: cover;
+}
+.name img{
+    width: 91%;
+    height: 279px;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-left: 11px;
+    margin-right: 27px;
+}
+.name h2{
+    text-align: center;
+    background-color: #51e2f5;
+    display: inline-block;
+    margin-left: 19%;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 30px 0px;
+    font-family: 'Griffy', cursive;
+}
+.name h2:hover{
+    
+    transform: scale(1.2);
+}
+
+.name h4{
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(226, 19, 19);
+    display: inline-block;
+    margin-left: 5%;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 3px;
+    padding-bottom: 3px;  
+}
+.name table{
+    
+     margin-left: 50px;
+    margin-top: 14px;
+    color: rgb(28, 250, 47);
+}
+.login{
+    color: rgb(0, 0, 0);
+    background-color: rgb(206, 55, 9);
+}
+.login:hover {
+    color: rgb(206, 0, 103);
+    background-color: rgb(34, 187, 14);
+}
+.rest{
+    color: rgb(0, 0, 0);
+    background-color: rgb(206, 55, 9);
+}
+.rest:hover {
+    color: rgb(206, 0, 103);
+    background-color: rgb(34, 187, 14);
+}
+.head{
+   /* background-color: gray;*/
+   background-image: url(heading.jpg);
+    height: 99px;
+    width: 100%;
+    display: flex; 
+    background-size: cover; 
+}
+.head img{
+    width: 62px;
+    height: 61%;
+    border-radius: 100%;
+    margin: 18px;
+}
+.head img:hover{
+    transform: scale(1.2);
+}
+.lekha h2{
+    height: 100%;
+    margin-top: 30px;
+    font-family: 'Ewert', cursive;
+    font-size: 32px;
+}
+.about h2{
+    text-align: center;
+    background-color: rgba(116, 209, 10, 0.822);
+    display: inline-block;
+    margin-top: 31px;
+    margin-left: 343px;
+    padding: 6px 27px;
+}
+.about p{ 
+    margin: 33px;    
+}
+.about table {
+        border: 1px solid black;
+        margin-bottom: 10px;
+        text-align: left;
+        background-image: url(table.jpg);
+       /* background-color: rgb(20, 235, 181);*/
+}
+.about table{
+        border-collapse: collapse;
+        width: 60%;
+        height: 154px;
+        margin-left: 410px;
+ }
+ .about ol{
+ margin-left: 33px;
+ margin-right: 17px;
+}
+.about ul {
+    margin-left: 28px;
+}
+.about th {
+    text-align: center;
+}
+.about th:hover{
+    background-color: rgb(9, 229, 245);
+    color: rgb(231, 21, 21);
+   
+  }
+  .about p{
+      
+      color: black;
+      background-color: gray;
+      margin-left: 339px;
+      padding: 10px;
+      border-radius: 20px;
+  }
+  .box h2{
+    text-align: center;
+    padding-top: 20px; 
+    font-size: 10px;
+    text-shadow: 10px 20px 5px red;
+    color: rgb(49, 223, 5);
+    
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(25, 152, 231);
+    margin: 76px auto;
+    margin-left: 520px;
+    box-shadow: 5px 5px 5px greenyellow, 10px 10px 5px rgb(47, 144, 255), 20px 20px 5px rgb(255, 147, 47);  
+    transition: 1s;  
+}
+.box:hover{
+    transform: rotateY(-45deg);
+}
+.about a{
+    text-decoration: none;
+    margin-left: 4px;
+}
+.about iframe{
+        height: 100%;
+        width: 100%;
+        margin-right: -223px;    
+}
+
+            </style>
+</head>
+<body>
+    <div class="full">
+                <!-----heading----->
+                <div class="head">
+                        <div class="pic">
+                            <img src="head.JPG" alt="">
+                        </div>
+                    <div class="lekha">
+                        <h2>Welcome to my blog</h2>
+                    </div>
+                </div>
+
+
+
+                <div class="name">
+                    <img src="blog.jpg" alt="">
+                    <h2>Monirul Islam</h2>
+                    <h4>Submit your Data for join my Tem</h4>
+
+                            <table border="1">
+                                <th>
+                                <form>
+                                    <p>Name</p>
+                                    <input type="text" placeholder="Your Name" required>
+                                    <p>Email</p>
+                                    <input type="mail" placeholder="Your Mail" required>
+                                    <p>Phone Number</p>
+                                    <input type="Number" placeholder="+880">
+                                    <p>Date of Birth</p>
+                                    <input type="date" required>
+                                    <p>Gender</p>
+                                    <input type="radio" name="class"> Male
+                                    <input type="radio" name="class"> Female
+                                    <p>Expariance</p>
+                                    <input type="checkbox" name="MS word"> Ms Word <br>
+                                    <input type="Checkbox" name="MS Exal"> Ms Exal <br>
+                                    <p>Password</p>
+                                    <input type="password" placeholder="Password" required>
+                                    <p>Confirm Password</p>
+                                    <input type="Password" placeholder="Confirm Password" required>
+                                    <p>About You</p>
+                                    <textarea name="" id="" cols="20" rows="2" placeholder="Tell me about You"></textarea><br><br><br>
+                                    <input type="submit" value="Regestration" class="login"><br>
+                                    <input type="reset" class="rest">
+                                </form>
+                            </th>
+                            </table>
+                </div>
+
+
+    <div class="about">
+        <h2>About Me</h2>
+        <p>I’m just human, I have weakness, I make mistakes and I experience sadness; But I learn from all these things to make me a better person.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptatem maxime, similique hic iste magnam ducimus earum dolor ratione corporis eligendi nulla nam excepturi suscipit dolore perferendis porro? Blanditiis, expedita!
+        </p>
+        <table border="1">
+            <tr>
+                <th>Exam</th>
+                <th>GPA</th>
+                <th>facebook </th>
+                <th>Youtube</th>
+            </tr>
+            <tr>
+                <td>
+                    <ul type="square">
+                        <li>SSC</li>
+                        <li>HSC</li>
+                        <li>BBA</li>
+                    </ul>
+                </td>
+                <td><ol type="I">
+                    <li>4.90</li>
+                    <li>5.00</li>
+                    <li>3.50</li>
+                </ol>
+            </td>
+            <td><a href="http://facebook.com/rashed.sadu" target="blank">Facebook</a></td>
+            <td><iframe  src="https://www.youtube.com/embed/-24zBDFTG28?list=RD-24zBDFTG28" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+            </tr>
+        </table></div>
+        <div class="box">
+            <h2>Free Fire lover</h2>
+        </div>
+        
+
+    
+</div>
+
+
+</div>
+
+</body>
+</html> 
